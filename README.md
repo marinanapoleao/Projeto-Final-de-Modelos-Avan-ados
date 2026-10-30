@@ -1,11 +1,11 @@
 # Projeto Final de Modelos Avançados
 <img width="1280" height="853" alt="image" src="https://github.com/user-attachments/assets/b4e52bb0-f7fb-4164-8685-d21972141b91" />
 
-### 📌 Sobre o Projeto
+## 📌 Sobre o Projeto
 
 Desenvolvimento de um modelo de aprendizado não supervisionado utilizando o algoritmo K-Means para segmentar clientes de um shopping com base em características demográficas, renda anual e pontuação de gastos. O projeto explora técnicas de análise de dados, pré-processamento, clusterização e avaliação de modelos.
 
-### 🎯 Objetivo
+## 🎯 Objetivo
 
 O objetivo deste projeto é aplicar os conceitos aprendidos nos módulos de conceitos avançados de modelagem para realizar uma segmentação de clientes utilizando o algoritmo de clustering K-Means.
 
@@ -14,7 +14,7 @@ O objetivo deste projeto é aplicar os conceitos aprendidos nos módulos de conc
 É possível segmentar os clientes de um shopping em grupos distintos a partir de sua idade, renda anual e pontuação de gastos? Como esses grupos podem ajudar o negócio a identificar clientes de alto valor e oportunidades para direcionar ações comerciais e de marketing?
 
 
-### 📊 Fonte de Dados
+## 📊 Fonte de Dados
 
 Dataset Mall_Customers.csv, composto originalmente por 200 registros de clientes e cinco atributos:
 - CustomerID: identificador do cliente.
@@ -25,7 +25,7 @@ Dataset Mall_Customers.csv, composto originalmente por 200 registros de clientes
 
 Para a clusterização, foram utilizadas as variáveis idade, renda anual e pontuação de gastos, após a exclusão das colunas de identificação e gênero.
 
-### 🛠️ LINGUAGENS E BIBLIOTECAS
+## 🛠️ LINGUAGENS E BIBLIOTECAS
 
 - Python — desenvolvimento da análise e do modelo.
 - Pandas e NumPy — manipulação e tratamento de dados.
@@ -35,7 +35,7 @@ Para a clusterização, foram utilizadas as variáveis idade, renda anual e pont
 - Kneed — identificação automática do ponto de cotovelo para auxiliar na escolha do número de clusters.
 
 
-### 🔍 Metodologia
+## 🔍 Metodologia
 
 1. Análise exploratória: inspeção dos tipos de dados, estatísticas descritivas e verificação de valores ausentes.
    
@@ -56,10 +56,22 @@ Para a clusterização, foram utilizadas as variáveis idade, renda anual e pont
 9. Aplicação ao negócio: identificação de possíveis oportunidades para segmentação de campanhas, personalização de ofertas e estratégias de relacionamento com clientes.
 
 
-### 📈  Resultados e Métricas
+## 📈  Resultados e Métricas
 
-### 💡Principais Insights e Implicações
+Cluster --------   Perfil identificado
 
+0 --------   Clientes mais velhos, com renda média e gastos médios a baixos.
+
+1 --------   Clientes com renda alta e pontuação de gastos elevada.
+
+2 --------   Clientes mais jovens, com renda menor e pontuação de gastos relativamente alta.
+
+3 --------   Clientes com renda alta e pontuação de gastos baixa.
+
+
+## 💡Principais Insights e Implicações
+
+Esses resultados ajudam a avaliar a estrutura dos agrupamentos, mas não garantem, isoladamente, que os clusters sejam estáveis ou comercialmente eficazes. A interpretação dos perfis é o que permite relacionar os resultados às possíveis decisões de negócio.
 
 ## 👩‍💻 Sobre a Autora
 
